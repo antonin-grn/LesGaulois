@@ -8,11 +8,11 @@ public class TestGaulois {
 		Gaulois asterix = new Gaulois("Asterix", 8);
 		System.out.println(asterix.getNom());
 		
-		asterix.parler("SIX SEVEEEENNNN");
+		asterix.parler("Bonjour à tous !");
 		
 		Romain minus = new Romain("Minus", 6);
 		
-		minus.parler("Top 7, FavEEEEEEEEE");
+		minus.parler("UN GAU, UN GAUGAU...");
 		
 		/*for(int i = 0; i < 2; i++) {
 			minus.recevoirCoup(3);

@@ -21,6 +21,7 @@ public class Romain {
 		force = force - forceCoup;
 		
 		if (force < 1) {
+			force = 0;
 			parler("J'abandonne !");
 		} else {
 			parler("Aïe !");
