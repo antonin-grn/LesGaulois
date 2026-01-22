@@ -14,12 +14,12 @@ public abstract class Personnage {
 	}
 	
 	public void parler(String texte) {
-		System.out.println("Le " + donnerAuteur() + nom + " : " + texte);
+		System.out.println(donnerAuteur() + nom + " : " + texte);
 	}
 	
 	public void frapper(Personnage adversaire) {
 		if (force > 0) {
-			System.out.println("Le " + donnerAuteur() + nom + " envoie un grand coup au " + adversaire.donnerAuteur() + adversaire.getNom());
+			System.out.println(donnerAuteur() + nom + " envoie un grand coup au " + adversaire.donnerAuteur() + adversaire.getNom());
 			adversaire.recevoirCoup(force/3);
 		}
 	}
