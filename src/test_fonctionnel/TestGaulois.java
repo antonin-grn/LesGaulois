@@ -1,8 +1,8 @@
 package test_fonctionnel;
 
+import personnages.Druide;
 import personnages.Gaulois;
 import personnages.Grade;
-import personnages.Romain;
 import personnages.Soldat;
 import sites.Camp;
 import sites.Village;
@@ -10,6 +10,9 @@ import sites.Village;
 public class TestGaulois {
 	public static void main(String[] args) {
 		Gaulois asterix = new Gaulois("Asterix", 8);
+		Druide panoramix = new Druide ("Panoramix", 5);
+		
+		panoramix.fabriquerPotion(3);
 		/*System.out.println(asterix.getNom());
 		
 		asterix.parler("Bonjour à tous !");
